@@ -7,11 +7,13 @@ app.use(express.json());
 app.use(cors());
 
 const {
-    getDrinks,
+    getTattoo,
+    addToList
 
 } = require('./controller')
 
 app.get('/getTattoo', getTattoo)
+app.post('./addToList', addToList)
 
 app.listen(4567, () => {
     console.log('Listening on port 4567!')

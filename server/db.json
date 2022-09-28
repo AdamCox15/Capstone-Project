@@ -1,8 +1,42 @@
 [
     {
       "id": 1,
-      "name": "Rook Man",
-      "picture": "asdf1.jpeg",
-      "flavor": "Brah Punch"
+      "name": "Mom Tattoo",
+      "picture": "asdf1.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Snake Tattoo",
+      "picture": "asdf2.png"
+    },
+    {
+      "id": 3,
+      "name": "Donut Tattoo",
+      "picture": "asdf3.png"
+    },
+    {
+      "id": 4,
+      "name": "Skull Tattoo",
+      "picture": "asdf4.png"
+    },
+    {
+      "id": 5,
+      "name": "Beer Tattoo",
+      "picture": "asdf5.png"
+    },
+    {
+      "id": 6,
+      "name": "Anchor Tattoo",
+      "picture": "asdf6.png"
+    },
+    {
+      "id": 7,
+      "name": "Clown Tattoo",
+      "picture": "asdf7.png"
+    },
+    {
+      "id": 8,
+      "name": "Viking Tattoo",
+      "picture": "asdf8.png"
     }
 ]

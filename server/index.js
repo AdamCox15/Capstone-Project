@@ -11,7 +11,7 @@ const {
 
 } = require('./controller')
 
-app.get('/getDrinks', getDrinks)
+app.get('/getTattoo', getTattoo)
 
 app.listen(4567, () => {
     console.log('Listening on port 4567!')

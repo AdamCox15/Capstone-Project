@@ -1,9 +1,9 @@
-const drinks = require('./db.json');
+const tattoos = require('./db.json');
 
 //Get, Post, Delete, Push
 
 module.exports = {
-    getDrinks: (req, res) => {
-    res.status(200).send(drinks)
+    getTattoo: (req, res) => {
+    res.status(200).send(tattoos)
     }
 }

@@ -2,41 +2,41 @@
     {
       "id": 1,
       "name": "Mom Tattoo",
-      "picture": "/Pictures/Mom Tattoo.png"
+      "picture": "../Pictures/MomTattoo.png"
     },
     {
       "id": 2,
       "name": "Snake Tattoo",
-      "picture": "/Pictures/Snake Tattoo.png"
+      "picture": "../Pictures/SnakeTattoo.png"
     },
     {
       "id": 3,
       "name": "Donut Tattoo",
-      "picture": "/Pictures/donut.png"
+      "picture": "../Pictures/donut.png"
     },
     {
       "id": 4,
       "name": "Skull Tattoo",
-      "picture": "/Pictures/Skull Tattoo.png"
+      "picture": "../Pictures/SkullTattoo.png"
     },
     {
       "id": 5,
       "name": " Duff Beer Tattoo",
-      "picture": "/Pictures/DUFF Tattoo.png"
+      "picture": "../Pictures/DUFFTattoo.png"
     },
     {
       "id": 6,
       "name": "Anchor Tattoo",
-      "picture": "/Pictures/Anchor Tattoo.png"
+      "picture": "../Pictures/AnchorTattoo.png"
     },
     {
       "id": 7,
       "name": "Krusty Tattoo",
-      "picture": "/Pictures/Krusty Tattoo.png"
+      "picture": "../Pictures/KrustyTattoo.png"
     },
     {
       "id": 8,
       "name": "Dog Tattoo",
-      "picture": "/Pictures/Dog Tattoo.png"
+      "picture": "../Pictures/DogTattoo.png"
     }
 ]

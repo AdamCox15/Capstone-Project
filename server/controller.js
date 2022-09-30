@@ -13,8 +13,8 @@ module.exports = {
     res.status(200).send(tattoos)
     },
     addToList: (req, res) => {
-        const {name} = req.body;
-        myTattoos.push(name)
+        // const {name} = req.body;
+        myTattoos.push(req.body)
         res.status(200).send(myTattoos)
     }
     // deleteTattoo: (req, res) => {

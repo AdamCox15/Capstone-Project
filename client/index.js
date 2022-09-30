@@ -26,7 +26,7 @@ const createTattooList = (tattoo) => {
     tattooList.classList.add('tattoo-list')
 
     tattooList.innerHTML = `
-    <img src = ${tattoo.picture} alt='Tattoo Image' />
+    <img src = ${tattoo.picture} alt='Tattoo Image' onclick="getList(${{id: tattoo.id, name: tattoo.name, picture: tattoo.picture}})" />
     <p>${tattoo.name}</p>
 
     `
@@ -44,8 +44,8 @@ const getAllTattoos = () => {
     })
 }
 
-const getList = () => {
-    axios.post(`${baseURL}/addToList`)
+const getList = (bodyObj) => {
+    axios.post(`${baseURL}/addToList`, bodyObj)
     .then((res) => {
         makeList(res.data)
         console.log(res.data)

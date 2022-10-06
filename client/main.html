@@ -17,8 +17,8 @@
     </header>
     <main>
         <div class="mainDiv">
-            <div>
-        <h3>Tattoos</h3>
+            <div id="div1">
+        <h3 id="tatFont">Tattoo Choices</h3>
         <button id="dropDown">Click Me</button>
         <br>
         <section id="tattooDisplay">
@@ -27,10 +27,12 @@
 
        </div>
        <div>
-        <img src="/Pictures/Homer1.png" alt="Homer Simpson">
+        <img id="mainHomer" src="/Pictures/Homer1.png" alt="Homer Simpson">
         </div>
+        <div  id="formDiv">
+        <h3 id="tatFont3">Create Your Own Tattoo</h3>
         <section id="form">
-            <h3>Add your own Tattoo!</h3>
+            <h3 id="tatFont2">Add Your Tattoo Here!</h3>
             <input 
                 type='text'
                 id="new-tattoo"
@@ -41,16 +43,13 @@
                 placeholder='Paste an image URL'/>
             <button id="new-btn">Add Tattoo</button>
         </section>
-        
-        <section id="makeTattooList">
-            
-        </section>
-    </div>
+        </div>
     </div>
     </main>
 
     <a href="index.html"><button class="btn">Go Back</button></a>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="index.js"></script>
+    <p id="foot">* I do not own any rights to the images used *</p>
 </body>
 </html>

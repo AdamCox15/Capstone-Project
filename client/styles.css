@@ -4,9 +4,22 @@ body {
 a {
   text-decoration: none;
 }
+h3 {
+  font-family: Gloria Hallelujah;
+}
+#dropDown {
+  margin-left: 35px;
+}
 .mainDiv {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+#tattooDisplay {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex: 1 1 60px;
 }
 #form {
   width:250px;
@@ -17,13 +30,33 @@ a {
   flex-direction: column;
   justify-content: space-evenly; 
   align-items: center;
-  margin: 30px;
+  margin: 75px;
   border: 4px solid #F2D43D;
   border-radius: 15%;
+  margin-top: 100px;
 }
 #ink1 {
   height: 50px;
   width: 50px;
+}
+
+#tatFont {
+  font-size: 2.5rem;
+  text-align: center;
+}
+#tatFont3 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 60px;
+}
+#mainHomer {
+  margin-left: 120px;
+  height: 800px;
+}
+#tattooDisplay {
+height: 600px;
+margin-left: 10px;
+margin-top: 20px;
 }
 
 .fade-in-image-2 {

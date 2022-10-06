@@ -12,36 +12,13 @@ for(let i =0; i < arr.length; i++){
   }
 }
 
-// const personalTattooList = (name) => {
-//     const newList = document.createElement('section')
-//     newList.classList.add()
-
-//     newList.innerHTML = `
-//     <form>
-//     <input 
-//         type='text'
-//         placeholder='Your name'/>
-//     <input 
-//         type='text'
-//         placeholder='The name of the new tattoo!'/>
-//     <input 
-//         type='text'
-//         id="img"
-//         placeholder='Paste an image URL'/>
-//     <button>add house</button>
-// </form>
-
-//     `
-// }
-
-
 
 const createTattooList = (tattoo) => {
     const tattooList = document.createElement('section')
     tattooList.classList.add('tattoo-list')
 
     tattooList.innerHTML = `
-    <img id = "ink1" src = ${tattoo.picture} alt='Tattoo Image' onclick="getList(${{id: tattoo.id, name: tattoo.name, picture: tattoo.picture}})" />
+    <img id = "ink1" src = ${tattoo.picture} alt='Tattoo Image')" />
     <p>${tattoo.name}</p>
 
     `
@@ -78,6 +55,46 @@ const addTattoo = () => {
         console.log(err)
     })
 }
+
+// ** Working on drag and drop for later **
+
+//     const clickDrag = (event) => {
+
+//     let shiftX = event.clientX - event.target.getBoundingClientRect().left;
+//     let shiftY = event.clientY - event.target.getBoundingClientRect().top;
+  
+//     event.target.style.position = 'absolute';
+//     event.target.style.zIndex = 1000;
+//     document.body.append(tattoo.picture);
+  
+//     moveAt(event.pageX, event.pageY);
+  
+    
+//     function moveAt(pageX, pageY) {
+//       event.target.style.left = pageX - shiftX + 'px';
+//       event.target.style.top = pageY - shiftY + 'px';
+//     }
+  
+//     function onMouseMove(event) {
+//       moveAt(event.pageX, event.pageY);
+//     }
+  
+  
+//     document.addEventListener('mousemove', onMouseMove);
+  
+
+//     event.target.onmouseup = function() {
+//       document.removeEventListener('mousemove', onMouseMove);
+//       event.target.picture.onmouseup = null;
+//     };
+  
+//   };
+  
+//   .target.ondragstart = function() {
+//     return false;
+//   };
+
+
 
 
 

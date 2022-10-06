@@ -10,6 +10,10 @@ h3 {
 #dropDown {
   margin-left: 35px;
 }
+#homeDiv {
+  display: flex;
+  justify-content: space-between;
+}
 .mainDiv {
   display: flex;
   justify-content: space-around;
@@ -50,13 +54,23 @@ h3 {
   margin-top: 60px;
 }
 #mainHomer {
-  margin-left: 120px;
+  margin: auto;
   height: 800px;
 }
 #tattooDisplay {
 height: 600px;
 margin-left: 10px;
 margin-top: 20px;
+}
+#foot {
+text-align: center;
+font-size: 1.5rem;
+margin-top: 50px;
+font-family: Gloria Hallelujah;
+}
+
+#tatGun {
+  margin: 35px 40px;
 }
 
 .fade-in-image-2 {
@@ -72,7 +86,7 @@ margin-top: 20px;
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
     font-family: Nabla;
-    font-size: 5.5rem;
+    font-size: 6.5rem;
     text-align: center;
     text-shadow:3px 3px #ff4d00;
   }
@@ -150,6 +164,9 @@ margin-top: 20px;
     display: block;
     margin: auto;
 }
+#homeDiv {
+  display: flex;
+}
 .btn {
     background: #ff4d00;
     background-image: -webkit-linear-gradient(top, #ff4d00, ff4d00);
@@ -162,7 +179,7 @@ margin-top: 20px;
     border-radius: 30px;
     text-decoration: none;
   
-    font-family: Georgia;
+    font-family: Gloria Hallelujah;
     color: #F2D43D;
     font-size: 43px;
     padding: 7px 20px 10px 20px;
@@ -194,7 +211,7 @@ margin-top: 20px;
     border-radius: 30px;
     text-decoration: none;
   
-    font-family: Georgia;
+    font-family: Gloria Hallelujah;
     color: #F2D43D;
     font-size: 43px;
     padding: 7px 20px 10px 20px;

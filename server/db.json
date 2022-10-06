@@ -38,5 +38,10 @@
       "id": 8,
       "name": "Dog Tattoo",
       "picture": "../Pictures/DogTattoo.png"
+    },
+    {
+      "id": 9,
+      "name": "Fish Tattoo",
+      "picture": "../Pictures/FishTattoo.png"
     }
 ]

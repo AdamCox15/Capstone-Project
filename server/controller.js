@@ -1,5 +1,5 @@
 const tattoos = require('./db.json');
-let globalID = 9;
+let globalID = 10;
 
 const myTattoos = [];
 

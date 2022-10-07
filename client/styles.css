@@ -58,7 +58,7 @@ p{
 }
 #mainHomer {
   margin: auto;
-  height: 800px;
+  height: 950px;
 }
 #tattooDisplay {
 height: 600px;
@@ -128,7 +128,7 @@ font-family: Gloria Hallelujah;
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
     font-family: Nabla;
-    font-size: 5.5rem;
+    font-size: 6.5rem;
     text-align: center;
     text-shadow:3px 3px #ff4d00;
   }

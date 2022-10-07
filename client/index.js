@@ -56,6 +56,11 @@ const addTattoo = () => {
     })
 }
 
+const playAudio = (url) => {
+    new Audio(url).play();
+  }
+
+
 // ** Working on drag and drop for later **
 
 //     const clickDrag = (event) => {
